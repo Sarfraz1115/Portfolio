@@ -1,0 +1,33 @@
+footer{
+    margin: 0 10rem;
+    height: 80%;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+.footnav{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+
+}
+
+.nav-links-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+.nav-links li {
+    text-decoration: none;
+    list-style: none;
+}
+.nav-links li a {
+    font-size: 1.5rem;
+}
+
+footer p{
+    margin-top: 3rem;
+    text-align: center;
+}

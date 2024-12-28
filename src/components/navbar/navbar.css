@@ -1,0 +1,209 @@
+.header{
+    width: 100%;
+    height: 13rem;
+    position: sticky;
+    top: 0;
+}
+
+.nav-wrapper {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(255, 253, 253, 0.1);
+    backdrop-filter: blur(5px);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+    max-width: 132rem;
+    margin: auto;
+
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 132rem;
+    margin: auto;
+
+}
+
+.menu-web {
+    display: flex;
+    list-style: none;
+    gap: 2.6rem;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menuitem::before {
+    content: " ";
+    position: absolute;
+    background-color: rgb(99, 187, 211);
+    height: 0.2rem;
+    opacity: 0;
+    width: 2rem;
+    left: 0;
+    border-radius: 0.5rem;
+    bottom: -0.6rem;
+    transform: translateX(-1.5rem);
+    transition: all 0.5s ease;
+}
+
+.active-link{
+    color: red;
+}
+
+.menuitem:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+li {
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+    }
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.github,
+.linkedin {
+    border-radius: 5px;
+    padding: 7px;
+    background: black;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.github:hover,
+.linkedin:hover {
+    background: rgb(99, 187, 211);
+    color: rgb(255, 255, 255);
+    outline: 1.5px solid rgb(0, 0, 0);
+}
+
+
+
+.menu-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.3rem;
+    display: none;
+}
+
+
+
+.logo {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+@media (max-width: 425px){
+    .logo{
+        width: 10rem;
+        height: auto;
+    }
+}
+
+
+
+
+@media (max-width: 769px) {
+    
+    .menu-btn {
+        display: block;
+    }
+    .menu-web{
+        display: none;
+    }
+
+    .mobile-menu {
+         display: block;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.114);
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+        gap: 1rem;
+        list-style: none;
+        backdrop-filter: blur(10px); 
+        /* position: absolute;
+        top: 100%;
+        right: 0;
+        width: fit-content;
+        min-height: 0;
+        overflow: hidden;
+        transition: all 0.1 ease-in-out; */
+
+    }
+    .mobile-menu li a{
+        color: black;
+        /* display: block;
+        padding: 10px;
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3 ease-in-out; */
+    }
+    .linkedin{
+        margin-bottom: 10px;
+    }
+   
+    .mobile-menu li {
+        color: black;
+        /* list-style: none; */
+    }
+
+    .symbol {
+        width: 30px;
+        height: 30px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: centere;
+        background: transparent;
+        border: 1px solid black;
+    }
+    .symbol:hover{
+        cursor: pointer;
+    }
+
+    
+}

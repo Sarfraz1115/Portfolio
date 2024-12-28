@@ -1,0 +1,50 @@
+
+.full-contact{
+    margin: 0 10rem;
+    height: 80%;
+    margin-bottom: 5rem;
+}
+.full-contact p{
+    /* margin-top: 1rem; */
+    text-align: center;
+}
+.full-contact h1{
+    font-size: 3rem;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.contact-info{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.mail{
+    display: flex;
+    padding: 1.5rem;
+    /* flex: 1; */
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.mail p a{
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+.mail p a:hover{
+    color: rgb(22, 21, 21);
+    border-bottom: 0.6px solid rgb(62, 59, 59);
+}
+.mail img{
+    width: 40px;
+}

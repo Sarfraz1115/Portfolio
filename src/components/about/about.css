@@ -1,0 +1,124 @@
+.top-about-container {
+    margin-top: 3rem;
+}
+
+.top-about-container p {
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(85, 85, 85);
+
+}
+
+.full-about {
+    margin: 0 10rem;
+    height: 80%;
+    margin-bottom: 5rem;
+}
+
+.top-about-container h1 {
+
+    font-size: 3rem;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+
+}
+
+.about-pic-container {
+    width: 400px;
+    height: 400px;
+    margin: auto 0;
+}
+
+.about-pic-container img {
+    width: 400px;
+}
+
+.about-detail-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.detail-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.detail-container p {
+    color: rgb(85, 85, 85);
+}
+
+.detail-container img {
+    width: 40px;
+}
+
+
+/* media queries */
+
+@media (min-width:1024px) and (max-width:1440px){
+
+    .full-about{
+        margin: 0 4rem;
+        height: 80%;
+        margin-bottom: 5rem;
+    }
+}
+@media (min-width:768px) and (max-width:1024px) {
+    .full-about {
+        margin: 0 3rem;
+        height: 80%;
+        margin-bottom: 5rem;
+    }
+
+    .about-pic-container img {
+        width: 300px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width:768px) {
+    .about-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-pic-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 500px;
+        height: 400px;
+        margin: auto 0; */
+    }
+    .detail-container{
+        width: 75vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-detail-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

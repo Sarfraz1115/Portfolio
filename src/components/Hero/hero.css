@@ -1,0 +1,144 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+    width: 90%;
+    gap: 3rem;
+    /* max-width: 1320px; */
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    margin-left: 2rem;
+}
+
+
+
+.hero-title {
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.written-section h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+
+.written-section span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(99, 187, 211);
+    margin-left: 2px;
+}
+
+.hero-desc {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+
+}
+
+.myimg1 {
+    width: 269px;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.logos {
+    padding: 5px;
+    display: flex;
+    gap: 18px;
+}
+
+.logos img {
+    width: 54px;
+    height: auto;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 12px;
+    margin-top: 10px;
+    /* box-shadow: rgba(67 113 116 / 50%) 4px 6px 17px; */
+}
+
+.logos img:hover {
+    /* box-shadow: none; */
+    box-shadow: rgba(67 113 116 / 50%) 4px 6px 17px;
+    cursor: pointer;
+}
+.images{
+    margin-right: 2rem;
+}
+
+.reactlogo{
+    padding: 5px;
+}
+.jslogo{
+    padding: 5px;
+}
+
+
+.resume {
+    display: inline-block;
+    /* background: rgb(99, 187, 211); */
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-top: 17px;
+    border-radius: 23px;
+    /* box-shadow: 0 0 1rem rgb(99, 187, 211); */
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin-top: 1rem;
+    margin-left: 5px;
+
+}
+
+.resume:hover {
+    color: white;
+    background: black;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        /* margin-top: 20rem; */
+    }
+    .written-section{
+        margin-left: 2rem;
+        margin-right: 2rem;
+
+        
+    }
+    .written-section h3{
+        text-align: center;
+    }
+    .written-section h1{
+        text-align: center;
+        font-size: 2.5rem ;
+    }
+    .hero-desc{
+        text-align: center;
+        /* font-size: 1.3rem; */
+    }
+    .resume{
+        /* display: block;
+        margin: auto; */
+        /* align-items: center; */
+        display: flex;
+        justify-content: center;
+    }
+   
+}
