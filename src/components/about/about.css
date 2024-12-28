@@ -71,6 +71,14 @@
     width: 40px;
 }
 
+.text-container p span{
+    /* color: blue; */
+    font-weight: 800;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
 
 /* media queries */
 
