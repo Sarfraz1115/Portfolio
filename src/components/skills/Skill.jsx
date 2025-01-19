@@ -33,6 +33,13 @@ const Skill = () => {
                 <article>
                   <img src="./checkmark.png" alt="" />
                   <div>
+                    <h3>Python</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./checkmark.png" alt="" />
+                  <div>
                     <h3>DSA in Java</h3>
                     <p>Intermediate</p>
                   </div>

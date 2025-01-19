@@ -14,27 +14,27 @@ const Project = () => {
                 <div className="project-container">
                     <div className="about">
                         <div className="first-about">
-                            <div className="photo"><img src="./project-1.png" alt="" /></div>
-                            <h2>Project 1</h2>
+                            <div className="photo"><img className='news' src="./news-portal.png" alt="" /></div>
+                            <h2>MyNews</h2>
                             <div className="btns">
-                                <button className='git'>Github</button>
-                                <button className='live'>Live Demo</button>
+                            <a href="https://google.com" target='_blank' className='git'>Github</a>
+                            <a href="" className='live'>Live demo</a>
                             </div>
                         </div>
                         <div className="first-about">
-                            <div className="photo"><img src="./project-2.png" alt="" /></div>
-                            <h2>Project 2</h2>
+                            <div className="photo"><img src="./real.webp" alt="" /></div>
+                            <h2>MyChat</h2>
                             <div className="btns">
-                                <button className='git'>Github</button>
-                                <button className='live'>Live Demo</button>
+                            <a href="https://google.com" target='_blank' className='git'>Github</a>
+                            <a href="" className='live'>Live demo</a>
                             </div>
                         </div>
                         <div className="first-about">
-                            <div className="photo"><img src="./project-3.png" alt="" /></div>
-                            <h2>Project 3</h2>
+                            <div className="photo"><img src="./tic.jpg" alt="" /></div>
+                            <h2>TicTacToe</h2>
                             <div className="btns">
-                                <button className='git'>Github</button>
-                                <button className='live'>Live Demo</button>
+                                <a href="https://google.com" target='_blank' className='git'>Github</a>
+                                <a href="" className='live'>Live demo</a>
                             </div>
                         </div>
                         
