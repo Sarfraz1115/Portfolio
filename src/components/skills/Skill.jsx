@@ -75,13 +75,6 @@ const Skill = () => {
                 <article>
                   <img src="./checkmark.png" alt="" />
                   <div>
-                    <h3>React</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <img src="./checkmark.png" alt="" />
-                  <div>
                     <h3>BootStrap</h3>
                     <p>Intermediate</p>
                   </div>
@@ -93,9 +86,57 @@ const Skill = () => {
                     <p>Experienced</p>
                   </div>
                 </article>
-
               </div>
+            </div>
 
+
+
+            <div className="skill">
+              <h2>Backend Development</h2>
+              <div className="articles">
+                <article>
+                  <img src="./checkmark.png" alt="" />
+                  <div>
+                    <h3>Node js</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./checkmark.png" alt="" />
+                  <div>
+                    <h3>Express JS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./checkmark.png" alt="" />
+                  <div>
+                    <h3>Mongo DB</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+
+            <div className="skill">
+              <h2>Frameworks & Libraries</h2>
+              <div className="articles">
+              <article>
+                  <img src="./checkmark.png" alt="" />
+                  <div>
+                    <h3>React</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./checkmark.png" alt="" />
+                  <div>
+                    <h3>Express JS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+              </div>
             </div>
 
 
