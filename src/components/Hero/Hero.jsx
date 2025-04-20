@@ -12,9 +12,9 @@ const Hero = () => {
             FrontEnd Developer and Software Engineer
            </p>
 
-          <a href="./Resume.pdf" target='_blank' className='resume'>Check Resume </a>
+          <a href="./Myresume.pdf" target='_blank' className='resume'>Check Resume </a>
           <a href="https://github.com/Sarfraz1115" target='_blank' className='resume'>Github </a>
-          <a href="https://www.linkedin.com/in/syed-sarfraz-b8b349327/" target='_blank' className='resume'> LinkedIn </a>
+          <a href="https://www.linkedin.com/in/syedsarfraz11/" target='_blank' className='resume'> LinkedIn </a>
 
         </div>
         <div className="images">
