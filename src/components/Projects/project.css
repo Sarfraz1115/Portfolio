@@ -157,3 +157,23 @@ img {
         margin-bottom: 2rem;
     }
 }
+@media (min-width:100px) and (max-width: 430px){
+    .first-about h2{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 1.5rem;
+    text-align: center;
+    }
+    .btns .git, .live{
+    background: white;
+    padding: 15px;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 20px;
+    font-size: 10px;
+    width: 116px;
+    margin-right: 1rem;
+    }
+}

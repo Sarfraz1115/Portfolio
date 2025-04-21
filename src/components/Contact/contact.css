@@ -48,3 +48,10 @@
 .mail img{
     width: 40px;
 }
+
+@media(min-width: 0px) and (max-width: 560px){
+    .full-contact{
+        margin: 0 2rem;
+    }
+    
+}
