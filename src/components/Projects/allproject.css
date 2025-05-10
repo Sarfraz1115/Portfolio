@@ -1,0 +1,80 @@
+.projects-container {
+    min-height: 100vh;
+    padding: 2rem;
+    /* background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); */
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .projects-title {
+    color: black;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 1.5rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  .project-name {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+
+  .project-btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 1rem; */
+  }
+  
+  .project-description {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 2.2rem;
+  }
+  
+  .project-live {
+    background: white;
+    padding: 10px;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #212121;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-live:hover {
+    background-color: #5949d6;
+  }

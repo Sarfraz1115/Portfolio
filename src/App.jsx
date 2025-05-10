@@ -7,66 +7,41 @@ import Skill from './components/skills/Skill'
 import About from './components/about/About'
 import Project from './components/Projects/Project'
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom';
 import Contact from './components/Contact/Contact'
 import Footer from './components/footer/Footer'
+import Allprojects from './components/Projects/Allprojects'
 
 
 
 function App() {
 
-  // const router = createBrowserRouter([
-  //   {
-  //     path: '/',
-  //     element: <div>
-  //       <Navbar/>
-  //       <Hero/>
-  //     </div>
-  //   },
-  //   {
-  //     path: '/About',
-  //     element: <div>
-  //       <Navbar/>
-  //       <About/>
-  //     </div>
-  //   },
-  //   {
-  //     path: '/skill',
-  //     element: <div>
-  //       <Navbar/>
-  //       <Skill/>
-  //     </div>
-  //   },
-  //   {
-  //     path: '/project',
-  //     element: <div>
-  //       <Navbar/>
-  //       <Project/>
-  //     </div>
-  //   },
-  //   {
-  //     path: '/contact',
-  //     element: <div>
-  //       <Navbar/>
-  //       <Project/>
-  //     </div>
-  //   },
-  // ])
-
 
   return (
+    <BrowserRouter>
       <>
-        <Navbar/>
-        <Hero/>
-        <About/>
-        <Skill/>
-        <Project/>
-        <Contact/>
-        <Footer/>
-        {/* <RouterProvider router={router}/> */}
+        <Navbar />
+        <Routes>
+          <Route path='/' element={
+            <>
+              <Hero />
+              <About />
+              <Skill />
+              <Project />
+              <Contact />
+              <Footer />
+            </>
 
-
+          } />
+          <Route path='/projects' element={<Allprojects/>}/>
+        </Routes>
       </>
+    </BrowserRouter>
+
+
+
+
+
   )
 }
 
