@@ -3,35 +3,35 @@ import './allproject.css';
 
 const projects = [
     {
-        title: "Fitness Tracker App",
-        description: "Track your workouts, diet and progress visually.",
-        live: "#",
-        github: "#",
+        title: "URL Shortner",
+        description: " web app that shortens long URLs and stores them in MongoDB.",
+        live: "https://url-shortner-backend-1h1z.onrender.com/",
+        github: "https://github.com/Sarfraz1115/URL-Shortner-Backend",
+        image: "./tic.jpg",
     },
     {
-        title: "Internship Auto-Applier",
-        description: "Automates applying to internships on Internshala.",
-        live: "#",
-        github: "#"
+        title: "Authentication System",
+        description: "A simple authentication system using Node.js, Express, and MongoDB.",
+        live: "https://auth-login-frontend.vercel.app/signup",
+        github: "https://github.com/Sarfraz1115/AuthLogin_Frontend",
+        image: "./auth.png",
     },
     {
-        title: "Weather App",
-        description: "Simple weather checker using OpenWeather API.",
-        live: "#",
-        github: "#"
+        title: "Authentication System",
+        description: "A simple authentication system using Node.js, Express, and MongoDB.",
+        live: "https://auth-login-frontend.vercel.app/signup",
+        github: "https://github.com/Sarfraz1115/AuthLogin_Frontend",
+        image: "./auth.png",
     },
     {
-        title: "Weather App",
-        description: "Simple weather checker using OpenWeather API.",
-        live: "#",
-        github: "#"
+        title: "Authentication System",
+        description: "A simple authentication system using Node.js, Express, and MongoDB.",
+        live: "https://auth-login-frontend.vercel.app/signup",
+        github: "https://github.com/Sarfraz1115/AuthLogin_Frontend",
+        image: "./auth.png",
     },
-    {
-        title: "Weather App",
-        description: "Simple weather checker using OpenWeather API.",
-        live: "#",
-        github: "#"
-    },
+    
+   
 ];
 
 const Allprojects = () => {
@@ -41,15 +41,15 @@ const Allprojects = () => {
             <div className="projects-grid">
                 {projects.map((project, index) => (
                     <div key={index} className="project-card">
-                        <div className="photo"><img src="./tic.jpg" alt="" /></div>
+                        <div className="photo"><img src={project.image}alt="" /></div>
                         <h2 className="project-name">{project.title}</h2>
                         <p className="project-description">{project.description}</p>
                         <div className='project-btns'>
-                            <a href={project.live} className="project-live">
+                            <a href={project.live} target='_blank' className="project-live">
                                 Live Demo
                             </a>
-                            <a href={project.github} className="project-live">
-                                Github
+                            <a href={project.github} target='_blank' className="project-live">
+                                Github 
                             </a>
                         </div>
                     </div>

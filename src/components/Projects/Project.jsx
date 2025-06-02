@@ -27,7 +27,7 @@ const Project = () => {
                             <h2>TaskMaster</h2>
                             <div className="btns">
                                 <a href="https://github.com/Sarfraz1115/TodoWithSupabase" target='_blank' className='git'>Github</a>
-                                <a href="https://todo-with-supabase-alpha.vercel.app/" className='live'>Live demo</a>
+                                <a href="https://todo-with-supabase-alpha.vercel.app/" target='_blank' className='live'>Live demo</a>
                             </div>
                         </div>
                         <div className="first-about">
@@ -42,8 +42,8 @@ const Project = () => {
                             <div className="photo"><img src="./tic.jpg" alt="" /></div>
                             <h2>TicTacToe</h2>
                             <div className="btns">
-                                <a href="https://github.com/Sarfraz1115/Tic-Tac-Toe-game" target='_blank' className='git'>Github</a>
-                                <a href="https://tic-tac-toe-game-kappa-wine.vercel.app/" className='live'>Live demo</a>
+                                <a href="https://github.com/Sarfraz1115/React-Projects/tree/main/3-TicTacToe-Game" target='_blank' className='git'>Github</a>
+                                <a href="https://tictactoe-eight-delta.vercel.app/" className='live'>Live demo</a>
                             </div>
                         </div>
 
